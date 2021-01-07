@@ -2,7 +2,7 @@ Hastane otomasyon programı nedir, ne işe yarar?
 
 Eğer bir hastaneniz, özel sağlık merkeziniz, kliniğiniz ya da muayenehaneniz varsa, etkili bir sağlık yönetimine de ihtiyacınız var demektir. Merkezinizin iş yükünü azaltmak ve performansını maksimum seviyeye çıkarmak için, işlemlerinizi ve iş süreçlerinizi daha güvenli ve verimli hale getiren hastane otomasyon programları kullanmalısınız.
 
-Bu programlar genellikle aşağıdaki modülleri içeren yazılımlardır:/
+Bu programlar genellikle aşağıdaki modülleri içeren yazılımlardır:
 
 Randevu oluşturma/ 
 Hasta yönlendirme/
