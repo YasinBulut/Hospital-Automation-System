@@ -60,5 +60,10 @@ namespace Proje_1
             bgl.baglanti().Close();
             MessageBox.Show("Branş Güncellendi");
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

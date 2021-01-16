@@ -37,5 +37,10 @@ namespace Proje_1
             fr.Show();
             //this.Hide();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

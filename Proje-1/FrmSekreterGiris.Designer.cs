@@ -35,12 +35,14 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btngiris
             // 
             this.btngiris.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btngiris.Location = new System.Drawing.Point(322, 255);
+            this.btngiris.Location = new System.Drawing.Point(306, 233);
             this.btngiris.Name = "btngiris";
             this.btngiris.Size = new System.Drawing.Size(144, 37);
             this.btngiris.TabIndex = 20;
@@ -50,7 +52,7 @@
             // 
             // msktc
             // 
-            this.msktc.Location = new System.Drawing.Point(262, 156);
+            this.msktc.Location = new System.Drawing.Point(246, 134);
             this.msktc.Mask = "00000000000";
             this.msktc.Name = "msktc";
             this.msktc.Size = new System.Drawing.Size(204, 36);
@@ -59,7 +61,7 @@
             // 
             // txtsifre
             // 
-            this.txtsifre.Location = new System.Drawing.Point(262, 213);
+            this.txtsifre.Location = new System.Drawing.Point(246, 191);
             this.txtsifre.Name = "txtsifre";
             this.txtsifre.Size = new System.Drawing.Size(204, 36);
             this.txtsifre.TabIndex = 2;
@@ -68,30 +70,47 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(159, 220);
+            this.label3.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label3.Location = new System.Drawing.Point(152, 198);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(66, 29);
+            this.label3.Size = new System.Drawing.Size(88, 26);
             this.label3.TabIndex = 16;
             this.label3.Text = "Şifre:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(69, 156);
+            this.label2.Font = new System.Drawing.Font("Algerian", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label2.Location = new System.Drawing.Point(62, 134);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(156, 29);
+            this.label2.Size = new System.Drawing.Size(184, 26);
             this.label2.TabIndex = 15;
             this.label2.Text = "TC. Kimlik No:";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Segoe Script", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(21, 50);
+            this.label1.Font = new System.Drawing.Font("Algerian", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label1.Location = new System.Drawing.Point(3, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(472, 67);
+            this.label1.Size = new System.Drawing.Size(584, 54);
             this.label1.TabIndex = 14;
             this.label1.Text = "Sekreter Giriş Paneli";
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(593, -1);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(116, 84);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 39;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // FrmSekreterGiris
             // 
@@ -99,8 +118,9 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(490, 319);
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.ClientSize = new System.Drawing.Size(707, 300);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btngiris);
             this.Controls.Add(this.msktc);
             this.Controls.Add(this.txtsifre);
@@ -113,8 +133,10 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "FrmSekreterGiris";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sekreter Giriş";
             this.Load += new System.EventHandler(this.FrmSekreterGiris_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -128,5 +150,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

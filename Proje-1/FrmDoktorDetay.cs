@@ -64,5 +64,10 @@ namespace Proje_1
             int secilen = dataGridView1.SelectedCells[0].RowIndex;
             rchsikayet.Text = dataGridView1.Rows[secilen].Cells[7].Value.ToString();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

@@ -26,5 +26,10 @@ namespace Proje_1
             dataGridView1.DataSource = dt;
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

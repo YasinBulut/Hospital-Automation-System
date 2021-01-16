@@ -113,5 +113,10 @@ namespace Proje_1
             FrmDuyurular frd = new FrmDuyurular();
             frd.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
